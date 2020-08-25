@@ -1,0 +1,57 @@
+.Brazil{
+    width: 300px;
+    height: 150px;
+    padding: 40px;
+    align-self: center;  
+    margin: 50 auto;
+    background: #E76F51;
+    text-align: center;   
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+
+.flag{
+    width: 50px;
+    float: left;
+    border-radius: 50%;
+}
+
+label{
+    font-size: 1.4rem;
+    float: right;
+}
+
+.a{
+    width: 900;
+    height: 300px;
+}
+
+.graph{
+    box-sizing: border-box;
+    width: 900px;
+    height: 300px;
+}
+
+.graph:hover{
+    width: 100px; 
+    height: 10%;
+}
+
+@media only screen and (max-widht: 600px) {
+.graph{
+    cursor: pointer;
+}
+
+}
+
+footer{
+    background-color: #424242;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.img_footer{
+    width: 100px;
+}
